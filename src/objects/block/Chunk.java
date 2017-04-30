@@ -1,4 +1,4 @@
-package objects;
+package objects.block;
 
 /**
  * Created by Tony on 2017/4/23.
@@ -6,9 +6,9 @@ package objects;
 public class Chunk {
     int xPos;
     int zPos;
-    int[] blocks;
+    Section[] section;
 
     public Chunk(){
-        blocks=new int[512];
+        section=new Section[16];
     }
 }
